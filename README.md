@@ -10,6 +10,12 @@ Click on the icon and paste any image url into text field and click `Submit`. (N
 
 ![](./images/ss.png)
 
+# Implementation Details
+
+![](./images/tech.svg)
+
+![](./images/tech.png)
+
 # FAQ
 
 Q) How do i clear the background image?
