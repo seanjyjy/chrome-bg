@@ -14,11 +14,9 @@ Click on the icon and paste any image url into text field and click `Submit`. (N
 
 ![](./images/tech.svg)
 
-![](./images/tech.png)
-
 # FAQ
 
-Q) How do i clear the background image?
+Q) How do i clear the background image? <br/>
 A) Simply press the extension icon and click `clear` (Note if the image doesnt clear, do press the refresh button)
 
 # Acknowledgement
