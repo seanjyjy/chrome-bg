@@ -8,7 +8,7 @@ Visit `TODO` on the `https://chrome.google.com/webstore/category/extensions` and
 
 Click on the icon and paste any image url into text field and click `Submit`. (Note if the image doesnt show up, do press the refresh button)
 
-![](../images/ss.png)
+![](./images/ss.png)
 
 # FAQ
 
