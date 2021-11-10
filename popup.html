@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChromeBg</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css"></link>
+  </head>
+  <body>
+    <div class="popup">
+      <div>Type or Paste in image url</div>
+      <div class="input">
+        <input type="text" name="imageUrl" id="imgUrlInput" autocomplete="off" required/>
+        <label for="imageUrl" class="label-name">
+            <span class="content-name">URL</span>
+        </label>
+      </div>
+      <div class="buttons">
+        <button type="submit" class="button" id="clear">Clear</button>
+        <button type="submit" class="button" id="submit">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

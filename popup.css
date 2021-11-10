@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.popup {
+  width: 320px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  position: relative;
+  height: 50px;
+  width: 90%;
+  overflow: hidden;
+}
+
+.input input {
+  width: 100%;
+  height: 100%;
+  color: black;
+  padding-top: 30px;
+  border: none;
+  outline: none;
+}
+
+.input .label-name {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+  transition: all 0.3s ease;
+}
+
+.input .label-name::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 2px solid #aaa;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.input input:focus + .label-name {
+  border-bottom: 1px solid transparent;
+}
+
+.input input:focus + .label-name .content-name,
+.input input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 10px !important;
+  color: #aaa;
+}
+
+.input input:focus + .label-name::after,
+.input input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.button {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  margin-top: 10px;
+  min-height: 3rem;
+  padding: 5px 20px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button:hover,
+.button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}

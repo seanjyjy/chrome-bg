@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "ChromeBackground",
+  "description": "Add your own custom background to Google.com",
+  "version": "1.0.0",
+  "author": "Sean Lum",
+  "icons": {
+    "16": "./images/background16.png",
+    "48": "./images/background48.png",
+    "128": "./images/background128.png"
+  },
+  "page_action": {
+    "default_icon": "./images/background16.png",
+    "default_popup": "popup.html",
+    "default_title": "Custom google chrome background"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://www.google.com/*",
+    "declarativeContent",
+    "storage",
+    "notifications",
+    "webNavigation"
+  ]
+}
