@@ -26,8 +26,6 @@
     }
   ],
   "permissions": [
-    "activeTab",
-    "tabs",
     "https://www.google.com/*",
     "declarativeContent",
     "storage",
