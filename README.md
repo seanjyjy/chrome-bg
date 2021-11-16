@@ -16,7 +16,7 @@ Click on the icon in the chrome's extension toolbar and paste any image url into
 
 # Read more about the implementation
 
-<medium_url>
+View the medium post [here](https://medium.com/@seanlumjy/build-a-chrome-extension-that-injects-css-into-your-favourite-website-9b65f722f409)
 
 # FAQ
 
