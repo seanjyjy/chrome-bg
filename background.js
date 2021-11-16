@@ -1,5 +1,5 @@
 // https://stackoverflow.com/questions/22511854/chrome-extension-that-acts-only-when-clicked-on-certain-webpages
-https: chrome.runtime.onInstalled.addListener(() => {
+chrome.runtime.onInstalled.addListener(() => {
   chrome.declarativeContent.onPageChanged.removeRules(undefined, () => {
     chrome.declarativeContent.onPageChanged.addRules([
       {
