@@ -4,15 +4,19 @@ Add your custom images to chrome's background! Available only in url matching `h
 
 # Usage
 
-Visit `TODO` on the `https://chrome.google.com/webstore/category/extensions` and search for `TODO` and add it to your extensions
+Visit [here](https://chrome.google.com/webstore/detail/chromebackground/hiohpginbllenbjfohemjliffknnafnn) or on the `https://chrome.google.com/webstore/category/extensions` and search for `ChromeBackground` and add it to your extensions
 
-Click on the icon and paste any image url into text field and click `Submit`. (Note if the image doesnt show up, do press the refresh button)
+Click on the icon in the chrome's extension toolbar and paste any image url into text field and click `Submit`. (Note if the image doesnt show up, do press the refresh button)
 
 ![](./images/ss.png)
 
 # Implementation Details
 
 ![](./images/tech.svg)
+
+# Read more about the implementation
+
+<medium_url>
 
 # FAQ
 
